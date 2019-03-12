@@ -12,9 +12,12 @@
                                            git-enable-github-support t
                                            git-gutter-use-fringe t
                                            )
+                                      (java :variables
+                                            java-backend 'lsp)
                                       better-defaults
-                                      helm
                                       emacs-lisp
+                                      helm
+                                      javascript
                                       markdown
                                       osx
                                       spell-checking
