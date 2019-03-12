@@ -296,6 +296,7 @@ values."
    ;; (default nil)
    dotspacemacs-whitespace-cleanup nil
    )
+  (load "~/.spacemacs.d/layers/jesi/init.el")
   (load "~/.spacemacs.d/user/init.el"))
 
 (defun dotspacemacs/user-init ()
