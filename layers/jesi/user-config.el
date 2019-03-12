@@ -19,10 +19,9 @@
     (add-hook 'scheme-mode-hook #'parinfer-mode)
     (add-hook 'lisp-mode-hook #'parinfer-mode)))
 
-
 (setq 
-  eclim-eclipse-dirs '("/Applications/Eclipse Java.app/Contents/Eclipse")
-  eclimd-executable "/Applications/Eclipse Java.app/Contents/Eclipse/eclimd"
-  eclim-executable "/Applications/Eclipse Java.app/Contents/Eclipse/plugins/org.eclim_2.8.0/bin/eclim"
+  eclim-eclipse-dirs '("/Applications/Eclipse\\ Java.app/Contents/Eclipse")
+  eclimd-executable "/Applications/Eclipse\\ Java.app/Contents/Eclipse/eclimd"
+  eclim-executable "/Applications/Eclipse\\ Java.app/Contents/Eclipse/plugins/org.eclim_2.8.0/bin/eclim"
   eclimd-default-workspace "~/eclipse-workspace"
   eclimd-wait-for-process t)

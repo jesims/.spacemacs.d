@@ -19,6 +19,7 @@
     javascript
     markdown
     osx
+    shell
     spell-checking
     syntax-checking
     version-control))
