@@ -1,4 +1,5 @@
 (spacemacs/toggle-indent-guide-globally-on)
+(spacemacs/toggle-debug-on-error-on)
 (use-package parinfer
   :ensure t
   :bind
