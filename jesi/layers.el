@@ -12,9 +12,7 @@
          git-magit-status-fullscreen t
          git-enable-github-support t
          git-gutter-use-fringe t)
-      (java :variables
-         ;TODO lsp backend does not work ATM https://github.com/emacs-lsp/lsp-java
-         java-backend 'lsp)
+      java 
       better-defaults
       javascript
       markdown
