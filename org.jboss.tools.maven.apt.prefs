@@ -1,0 +1,2 @@
+org.jboss.tools.maven.apt/org.jboss.tools.maven.apt.aptProcessDuringReconcile=true
+org.jboss.tools.maven.apt/org.jboss.tools.maven.apt.mode=jdt_apt
