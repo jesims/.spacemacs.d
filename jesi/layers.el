@@ -13,6 +13,7 @@
          git-enable-github-support t
          git-gutter-use-fringe t)
       better-defaults
+      html
       java 
       javascript
       markdown
