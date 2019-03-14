@@ -24,4 +24,8 @@
   eclimd-executable "/Applications/Eclipse Java.app/Contents/Eclipse/eclimd"
   eclim-executable "/Applications/Eclipse\\ Java.app/Contents/Eclipse/plugins/org.eclim_2.8.0/bin/eclim"
   eclimd-default-workspace "~/eclipse-workspace"
-  eclimd-wait-for-process t)
+  eclimd-wait-for-process t
+  sql-postgres-login-params '((user :default "jesi")
+                              (database :default "jesi")
+                              (server :default "localhost")
+                              (port :default 5433)))

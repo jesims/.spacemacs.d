@@ -12,12 +12,13 @@
          git-magit-status-fullscreen t
          git-enable-github-support t
          git-gutter-use-fringe t)
-      java 
       better-defaults
+      java 
       javascript
       markdown
       osx
       shell
       spell-checking
+      sql
       syntax-checking
       version-control)))
