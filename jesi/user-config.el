@@ -17,6 +17,10 @@
 
 ;;Eclim
 (setq-default
+  cider-default-cljs-repl 'shadow
+  cider-known-endpoints '(("LOCAL " "localhost" "7002"))
+  cider-shadow-default-options "jesi"
+  cider-save-file-on-load t
   eclim-eclipse-dirs '("/Applications/Eclipse\\ Java.app/Contents/Eclipse")
   eclimd-executable "/Applications/Eclipse Java.app/Contents/Eclipse/eclimd"
   eclim-executable "/Applications/Eclipse\\ Java.app/Contents/Eclipse/plugins/org.eclim_2.8.0/bin/eclim"
