@@ -14,10 +14,10 @@
          git-gutter-use-fringe t)
       better-defaults
       html
-      java 
       javascript
       markdown
       osx
+      parinfer
       shell
       spell-checking
       sql
