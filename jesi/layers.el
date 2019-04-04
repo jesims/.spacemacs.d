@@ -17,7 +17,7 @@
       javascript
       markdown
       osx
-      parinfer
+      parinfer-smart
       shell
       spell-checking
       sql
